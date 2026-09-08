@@ -88,34 +88,56 @@ const projects = [
     ],
     accent: 'teal',
     github:
-      'https://github.com/Yohannes2730/Online-Registration-System',
+      'https://github.com/Yohannes2730/Online-Registration-System.git',
   },
 
   {
-    name: 'Student Management System',
-    type: 'BACKEND / 2026',
-    text: 'A modular student management platform for handling student records, courses, attendance, academic progress, analytics, and administrative workflows.',
-    tags: [
-      'NestJS',
-      'Fastify',
-      'React',
-      'MongoDB',
-      'Redis',
-      'REST API',
-    ],
-    accent: 'sand',
-    github:
-      'https://github.com/Yohannes2730/studentManagment_System',
-  },
+    
+ name: 'Student Management System',
+type: 'MOBILE / 2026',
+text: 'A role-based mobile application for managing student attendance, class schedules, permissions, academic activities, and communication between administrators, students, and parents.',
+tags: [
+'Flutter',
+'Dart',
+'Supabase',
+'PostgreSQL',
+'Provider',
+],
+accent: 'sand',
+github:
+'https://github.com/Yohannes2730/studentManagment_System.git',
+},
+
 
   {
-    name: 'Student Management Android',
-    type: 'MOBILE / 2026',
-    text: 'A native Android application implementing authentication, student CRUD operations, attendance management, SQLite persistence, and local data handling.',
-    tags: ['Java', 'Android Studio', 'SQLite', 'CRUD'],
-    accent: 'blue',
-    github: 'https://github.com/Yohannes2730',
-  },
+name: 'MERN Authentication System',
+type: 'WEBSITE / 2026',
+text: 'A full-stack authentication platform built with the MERN stack, featuring secure user registration, login, JWT-based authentication, protected routes, and MongoDB data persistence.',
+tags: [
+'React',
+'Node.js',
+'Express',
+'MongoDB',
+'JWT',
+],
+accent: 'blue',
+github: 'https://github.com/Yohannes2730/Mern-Authenticate-system.git',
+},
+  {
+name: 'E-commerce Backend System',
+type: 'WEBSITE / 2025',
+text: 'A backend system for an e-commerce platform, built with the MERN stack, providing secure user authentication, product management, order processing, and data storage using MongoDB.',
+tags: [
+'React',
+'Node.js',
+'Express',
+'MongoDB',
+'JWT',
+],
+accent: 'blue',
+github: 'https://github.com/Yohannes2730/E-commerce-Backend-System-.git',
+}
+
 ]
 
 export default function Page() {
@@ -259,7 +281,7 @@ export default function Page() {
               src="/about-portrait.png"
               alt="Yohannes Girma"
             />
-
+permanently
             <span className="portrait-caption">
               YG / 2026
             </span>
