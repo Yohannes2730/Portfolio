@@ -684,7 +684,7 @@ permanently
         </a>
 
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/in/yohannesg123"
           target="_blank"
           rel="noopener noreferrer"
         >
