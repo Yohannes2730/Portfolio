@@ -665,7 +665,10 @@ permanently
                 <Mail size={17} />
                 Email
               </a>
-
+              <a href="https://t.me/John_loveM">
+                <MessageCircle size={17} />
+                Telegram
+              </a>
               <a
                 href="https://github.com/Yohannes2730"
                 target="_blank"
