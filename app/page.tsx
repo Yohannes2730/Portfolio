@@ -16,6 +16,7 @@ import {
   Send,
   Smartphone,
   Globe,
+  MessageCircle,
   Layers3,
   GitBranch,
 } from 'lucide-react'
