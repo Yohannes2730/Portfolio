@@ -633,128 +633,146 @@ permanently
         </div>
       </section>
 
-      {/* CONTACT */}
+      ```tsx
+{/* CONTACT */}
 
-      <section
-        id="contact"
-        className="contact section-wrap"
-      >
-        <div className="contact-grid">
-          <div>
-            <p className="kicker">
-              06 / CONTACT
-            </p>
+<section
+  id="contact"
+  className="contact section-wrap"
+>
+  <div className="contact-grid">
+    <div>
+      <p className="kicker">
+        06 / CONTACT
+      </p>
 
-            <h2>
-              Have a hard
-              <br />
-              problem?{' '}
-              <em>
-                Let&apos;s talk.
-              </em>
-            </h2>
+      <h2>
+        Have a hard
+        <br />
+        problem?{' '}
+        <em>Let&apos;s talk.</em>
+      </h2>
 
-            <p className="contact-copy">
-              Tell me a little about what you&apos;re building.
-              Whether it&apos;s an API, web application,
-              backend system, or technical idea, I&apos;d be
-              happy to hear about it.
-            </p>
+      <p className="contact-copy">
+        Have a project, technical challenge, or idea you&apos;d
+        like to discuss? Send me a message and I&apos;ll get back
+        to you as soon as possible.
+      </p>
 
-            <div className="socials">
-              <a href="mailto:yohannesg218@gmail.com">
-                <Mail size={17} />
-                Email
-              </a>
-              <a href="https://t.me/John_loveM">
-                <MessageCircle size={17} />
-                Telegram
-              </a>
-              <a
-                href="https://github.com/Yohannes2730"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Code2 size={17} />
-                GitHub
-              </a>
+      <div className="socials">
+        <a href="mailto:yohannesg218@gmail.com">
+          <Mail size={17} />
+          Email
+        </a>
 
-              <a
-                href="https://www.linkedin.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <BriefcaseBusiness size={17} />
-                LinkedIn
-              </a>
-            </div>
-          </div>
+        <a
+          href="https://t.me/John_loveM"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <MessageCircle size={17} />
+          Telegram
+        </a>
 
-          <form
-            onSubmit={(e) => {
-              e.preventDefault()
-              setSent(true)
-            }}
+        <a
+          href="https://github.com/Yohannes2730"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Code2 size={17} />
+          GitHub
+        </a>
+
+        <a
+          href="https://www.linkedin.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <BriefcaseBusiness size={17} />
+          LinkedIn
+        </a>
+      </div>
+    </div>
+
+    <form
+      onSubmit={(e) => {
+        e.preventDefault()
+        setSent(true)
+      }}
+      className="contact-form"
+    >
+      {sent ? (
+        <div className="success">
+          <span className="success-icon">✓</span>
+
+          <h3>Message received.</h3>
+
+          <p>
+            Thanks for reaching out. I&apos;ll be in touch soon.
+          </p>
+
+          <button
+            type="button"
+            className="text-link"
+            onClick={() => setSent(false)}
           >
-            {sent ? (
-              <div className="success">
-                <span>✓</span>
-
-                <h3>
-                  Message received.
-                </h3>
-
-                <p>
-                  Thanks for reaching out. I&apos;ll be in
-                  touch soon.
-                </p>
-              </div>
-            ) : (
-              <>
-                <label>
-                  Name
-
-                  <input
-                    required
-                    name="name"
-                    placeholder="Your name"
-                  />
-                </label>
-
-                <label>
-                  Email
-
-                  <input
-                    required
-                    type="email"
-                    name="email"
-                    placeholder="you@company.com"
-                  />
-                </label>
-
-                <label>
-                  Message
-
-                  <textarea
-                    required
-                    name="message"
-                    rows={4}
-                    placeholder="What are you working on?"
-                  />
-                </label>
-
-                <button
-                  className="button primary"
-                  type="submit"
-                >
-                  Send message
-                  <Send size={15} />
-                </button>
-              </>
-            )}
-          </form>
+            Send another message <span>→</span>
+          </button>
         </div>
-      </section>
+      ) : (
+        <>
+          <label htmlFor="contact-name">
+            Name
+
+            <input
+              id="contact-name"
+              required
+              type="text"
+              name="name"
+              autoComplete="name"
+              placeholder="Your name"
+            />
+          </label>
+
+          <label htmlFor="contact-email">
+            Email
+
+            <input
+              id="contact-email"
+              required
+              type="email"
+              name="email"
+              autoComplete="email"
+              placeholder="you@company.com"
+            />
+          </label>
+
+          <label htmlFor="contact-message">
+            Message
+
+            <textarea
+              id="contact-message"
+              required
+              name="message"
+              rows={5}
+              placeholder="Tell me about your project or idea..."
+            />
+          </label>
+
+          <button
+            className="button primary"
+            type="submit"
+          >
+            Send message
+            <Send size={15} />
+          </button>
+        </>
+      )}
+    </form>
+  </div>
+</section>
+```
+
 
       {/* FOOTER */}
 
