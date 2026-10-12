@@ -3,7 +3,7 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Yohannes — Backend Software Engineer',
+  title: 'Yohannes Girma— Backend Software Engineer',
   description:
     'Yohannes — Backend Software Engineer specializing in NestJS, Fastify, Node.js, PostgreSQL, MongoDB, Prisma, and scalable backend systems.',
 
