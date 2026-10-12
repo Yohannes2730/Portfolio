@@ -76,21 +76,24 @@ const skills = [
 
 const projects = [
   {
-    name: 'Online Registration System',
-    type: 'FULL-STACK / 2026',
-    text: 'A production-oriented student registration platform designed around modular backend architecture, secure authentication, role-based access, course registration, and relational data management.',
-    tags: [
-      'NestJS',
-      'Fastify',
-      'Next.js',
-      'Prisma',
-      'PostgreSQL',
-      'Better Auth',
-    ],
-    accent: 'teal',
-    github:
-      'https://github.com/Yohannes2730/Online-Registration-System.git',
-  },
+  name: 'Online Registration System',
+  type: 'FULL-STACK / 2026',
+  text: 'A secure full-stack registration and authentication platform featuring email verification, OTP-based workflows, password reset, session management, role-based access control, and PostgreSQL data management. Built with a modular NestJS backend and Next.js frontend, with Redis for caching and temporary storage, Docker for containerization, and Nginx for reverse proxy routing.',
+  tags: [
+    'NestJS',
+    'Fastify',
+    'Next.js',
+    'Better Auth',
+    'Prisma',
+    'PostgreSQL',
+    'Redis',
+    'Docker',
+    'Nginx',
+  ],
+  accent: 'teal',
+  github:
+    'https://github.com/Yohannes2730/Online-Registration-System',
+},
 
   {
     
@@ -540,12 +543,12 @@ permanently
             </span>
 
             <h3>
-              Computer Science & Software Engineering
+              Software Engineering
             </h3>
 
             <p>
               Building a strong foundation in programming,
-              algorithms, databases, software architecture,
+              algorithms, databases, software architecture,javascript,typescript,
               Java, C++, Python, and web development.
             </p>
           </div>
