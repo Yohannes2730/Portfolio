@@ -140,6 +140,24 @@ tags: [
 ],
 accent: 'blue',
 github: 'https://github.com/Yohannes2730/E-commerce-Backend-System-.git',
+},
+{
+  name: 'AthaNex',
+  type: 'FULL-STACK / 2025',
+  text: 'A digital healthcare and e-prescription platform designed to connect patients, doctors, hospitals, and pharmacies. Focused on secure electronic prescription management, medicine availability search, pharmacy inventory tracking, prescription-based ordering, medication tracking, and notifications. Originally designed with the MERN stack, JWT authentication, role-based access control, and Docker, with a roadmap for future microservices architecture.',
+  tags: [
+    'MongoDB',
+    'Express.js',
+    'React',
+    'Node.js',
+    'JWT',
+    'OAuth 2.0',
+    'REST APIs',
+    'Docker',
+    'GitHub Actions',
+  ],
+  accent: 'teal',
+  github: 'https://github.com/Yohannes2730/Prescription-Management-System.git',
 }
 
 ]
